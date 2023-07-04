@@ -10,7 +10,8 @@ type: application
 version: 2.0.0
 
 annotations:
-  catalog.cattle.io/auto-install: prometheus=match
+#  catalog.cattle.io/auto-install: prometheus=match
+  catalog.cattle.io/display-name: kevins-trento-version
   catalog.cattle.io/certified: rancher
   catalog.cattle.io/experimental: "true"
   catalog.cattle.io/release-name: trento-test
